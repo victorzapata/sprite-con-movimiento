@@ -1,0 +1,64 @@
+body
+{
+	background-color:#C60;
+	color: white;
+	text-shadow:5px 5px 5px #FF0000;
+
+}
+
+#escenario
+{
+	margin-top: 10px;
+	position: relative;
+	background-image: url(../img/fondo.png);
+	background-size: 600px 400px;
+	background-repeat:no-repeat;
+	width: 600px;
+	height: 400px;
+}
+
+#personaje
+{
+	width: 70px;
+	height: 70px;
+	/*border: 1px solid red; */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#llama
+{
+	width: 70px;
+	height: 70px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image: url(../img/brillo.gif);
+}
+
+.basepersonaje
+{
+	background-image: url(../img/personaje.png);
+}
+.front_1{ background-position: 0 0; width: 32px; height: 48px; } 
+.front_2{ background-position: -132px 0; width: 32px; height: 48px; } 
+.front_3{ background-position: -264px 0; width: 32px; height: 48px; } 
+.front_4{ background-position: -396px 0; width: 32px; height: 48px; } 
+.left_1{ background-position: -528px 0; width: 32px; height: 48px; } 
+.left_2{ background-position: -660px 0; width: 32px; height: 48px; } 
+.left_3{ background-position: -792px 0; width: 32px; height: 48px; } 
+.left_4{ background-position: -924px 0; width: 32px; height: 48px; } 
+.right_1{ background-position: -1056px 0; width: 32px; height: 48px; } 
+.right_2{ background-position: -1188px 0; width: 32px; height: 48px; } 
+.right_3{ background-position: -1320px 0; width: 32px; height: 48px; } 
+.right_4{ background-position: -1452px 0; width: 32px; height: 48px; } 
+.top_1{ background-position: -1584px 0; width: 32px; height: 48px; } 
+.top_2{ background-position: -1716px 0; width: 32px; height: 48px; } 
+.top_3{ background-position: -1848px 0; width: 32px; height: 48px; } 
+.top_4{ background-position: 0 -148px; width: 32px; height: 48px; } 
+
+
+/* CSS Document */
+
